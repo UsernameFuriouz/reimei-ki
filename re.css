@@ -107,6 +107,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .re-round-small{border-radius:2px}.re-round,.re-round-medium{border-radius:4px}.re-round-large{border-radius:8px}.re-round-xlarge{border-radius:16px}.re-round-xxlarge{border-radius:32px}
 .re-row-padding,.re-row-padding>.re-half,.re-row-padding>.re-third,.re-row-padding>.re-twothird,.re-row-padding>.re-threequarter,.re-row-padding>.re-quarter,.re-row-padding>.re-col{padding:0 8px}
 .re-container,.re-panel{padding:0.01em 16px}.re-panel{margin-top:16px;margin-bottom:16px}
+.re-grid{display:grid}.re-grid-padding{display:grid;gap:16px}.re-flex{display:flex}
+.re-text-center{text-align:center}.re-text-bold,.re-bold{font-weight:bold}.re-text-italic,.re-italic{font-style:italic}
 .re-code,.re-codespan{font-family:Consolas,"courier new";font-size:16px}
 .re-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
 .re-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
@@ -147,6 +149,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .re-button:hover{color:#000!important;background-color:#ccc!important}
 .re-transparent,.re-hover-none:hover{background-color:transparent!important}
 .re-hover-none:hover{box-shadow:none!important}
+.re-rtl{direction:rtl}.re-ltr{direction:ltr}
 /* Colors */
 .re-amber,.re-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .re-aqua,.re-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
@@ -174,6 +177,19 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .re-grey,.re-hover-grey:hover,.re-gray,.re-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
 .re-light-grey,.re-hover-light-grey:hover,.re-light-gray,.re-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
 .re-dark-grey,.re-hover-dark-grey:hover,.re-dark-gray,.re-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.re-asphalt,.re-hover-asphalt:hover{color:#fff!important;background-color:#343a40!important}
+.re-crimson,.re-hover-crimson:hover{color:#fff!important;background-color:#a20025!important}
+.re-cobalt,re-hover-cobalt:hover{color:#fff!important;background-color:#0050ef!important}
+.re-emerald,.re-hover-emerald:hover{color:#fff!important;background-color:#008a00!important}
+.re-olive,.re-hover-olive:hover{color:#fff!important;background-color:#6d8764!important}
+.re-paper,.re-hover-paper:hover{color:#000!important;background-color:#f8f9fa!important}
+.re-sienna,.re-hover-sienna:hover{color:#fff!important;background-color:#a0522d!important}
+.re-taupe,.re-hover-taupe:hover{color:#fff!important;background-color:#87794e!important}
+.re-danger{color:#fff!important;background-color:#dd0000!important}
+.re-note{color:#000!important;background-color:#fff599!important}
+.re-info{color:#fff!important;background-color:#0a6fc2!important}
+.re-warning{color:#000!important;background-color:#ffb305!important}
+.re-success{color:#fff!important;background-color:#008a00!important}
 .re-pale-red,.re-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
 .re-pale-green,.re-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
 .re-pale-yellow,.re-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
